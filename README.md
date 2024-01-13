@@ -34,3 +34,10 @@ $ mongo //inicializa o banco
 
 
 ```
+
+- Voltar a um commit especifico
+
+```bash
+$ git log --oneline -n4 //lista os commits
+$ git reset --hard cf629bc //reseta o commit apagando tudo que foi feito
+```
